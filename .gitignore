@@ -1,0 +1,49 @@
+# Secrets & config
+config.json
+.env
+*.key
+*.pem
+api_keys.txt
+
+# Logs
+*.log
+logs/
+trades.csv
+history/
+
+# Build artifacts
+*.exe
+*.dll
+*.zip
+*.rar
+*.7z
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local data
+data/
+models/*.h5
+models/*.pt
+backtest_results/
